@@ -1,0 +1,87 @@
+section{
+    width: 100%;
+    max-width: 70%;
+    font-weight: bold;
+    line-height: 0.5em;
+    background-color: rgba(110, 107, 107, 0.425);
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin:10% auto;
+    box-shadow: 8px 8px 8px -6px rgba(110, 107, 107);
+    border-radius: 10px;
+}
+
+section form{
+  display: grid;
+ grid-template-columns: 1fr;
+ gap:10px;
+}
+section h1{
+    font-size:20px;
+    margin:40px 0 20px;
+}
+section figure{
+   margin: 20px 0; 
+}
+section div{
+    display:flex;
+    align-items: center;
+    gap:5px;
+   margin:30px 0 50px;  
+}
+section div a{
+    text-decoration: none;
+    color:white;
+}
+
+section form input{
+    background-color: rgba(176, 176, 177, 0.527);
+    color: #fff;
+    font-weight: 900;
+    border:none;
+    padding:12px;
+    border-radius: 6px;
+  cursor:pointer;
+}
+
+section form input:active{
+  padding:6px 10px 20px;
+  font-size: 12px;
+}
+section form input:hover{
+   padding:6px 10px 20px;
+   font-size: 12px;
+}
+section form button{
+    border:3px solid rgba(176, 176, 177);
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight:900 ;
+    cursor:pointer;
+    outline: none;
+}
+section form button:hover{
+    transition:0.5s;
+     background: rgba(176, 176, 177, 0.527);
+    color:red;
+     border:3px solid red;
+}
+section figure img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+section figure img:hover{
+     width: 70px;
+    height: 70px;
+    border:2px solid red;
+}
+section item{
+    display:flex;
+    justify-content: space-between;
+}
